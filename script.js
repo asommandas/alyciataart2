@@ -1,3 +1,4 @@
+/* Code: veranderen van de achtergrond*/
 const buttonAchtergrond1 = document.getElementById("strik");
 const buttonAchtergrond2 = document.getElementById("citroen");
 const buttonAchtergrond3 = document.getElementById("bloem");
@@ -15,6 +16,7 @@ buttonAchtergrond3.addEventListener("click", function () {
     document.body.style.backgroundImage = "url('foto/achtergrond_blauw.png')"
 })
 
+/* Code: veranderen tekst veranderen door klik op button*/
 let h2Element = document.querySelector("h2");
 let buttonStart = document.querySelector(".tekst button");
 
@@ -24,6 +26,7 @@ function kiesCake() {
 
 buttonStart.addEventListener("click", kiesCake);
 
+/* Code: taarten opties kiezen + if/else > error*/
 const standaard = document.querySelector("#zero");
 const chocoBasis = document.querySelector("#chocoBasis");
 const groteChoco = document.querySelector("#groteChoco");
